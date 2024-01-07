@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test4</title>
+
+</head>
+<body>
+<address>
+    <a href="https://edu.bitejiuyeke.com/homework/recordList">比特教务系统</a>
+    <a href="https://gitee.com/gaobo1/java-111">博哥Git地址</a>
+    <p dir="rtl">hello,姚长坤</p>
+    <p dir="ltr">hello,姚长坤</p>
+    <div>
+        <h2>可编辑列表</h2>
+        <ul contenteditable="true">
+            <li>James</li>
+            <li>Durant</li>
+            <li>Joker</li>
+        </ul>
+
+        <h2>不可编辑列表</h2>
+        <ul contenteditable="false">
+            <li>James</li>
+            <li>Durant</li>
+            <li>Joker</li>
+        </ul>
+    </div>
+</address>
+
+<div id="target" hidden="true" style="height:80px">
+    大明王朝
+</div>
+<button onclick="var target=document.getElementById('target'); target.hidden=!target.hidden;">显示/隐藏</button>
+
+<footer onclick="document.designMode='on';">
+    <table style="width:420px;border-collapse: collapse" border="I">
+        <tr>
+            <td>JS</td>
+            <td>PHP</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>Java</td>
+        </tr>
+    </table>
+
+</footer>
+<br>
+<footer onclick="document.designMode='off';">
+    <table style="width:420px;border-collapse: collapse" border="I">
+        <tr>
+            <td>JS</td>
+            <td>PHP</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>Java</td>
+        </tr>
+    </table>
+
+</footer>
+<footer>
+    <h3>输入框中语法检测属性</h3>
+    <p>需要检测<br>
+        <textarea spellcheck="true"></textarea>
+    </p>
+    <p>不需要检测<br>
+        <textarea spellcheck="false"></textarea>
+    </p>
+</footer>
+</body>
+</html>
